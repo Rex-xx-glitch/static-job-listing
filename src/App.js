@@ -1,10 +1,12 @@
-
+import {Container, Header, StylesResets} from "./styles/app";
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Hello world</h1>
-    </div>
+  return (<>
+  <StylesResets />
+    <Container>
+      <Header></Header>
+    </Container>
+    </>
   );
 }
 
